@@ -17,6 +17,7 @@ Cookie = r''
 
 studentCode = r''
 
+
 ### 以下可能需要修改
 url_DailyFeedback = r''
 url_DailyFeedback = r'http://ce.fudan.edu.cn/API/Admin/DailyFeedback/FeedbackStudent.ashx?action=query&semester=2021-2022-1&searchName=&type=1&v=1638193860058&index=1&psize=200&orderby=&col=&ordertype=&order='
@@ -24,6 +25,7 @@ url_DailyFeedback = r'http://ce.fudan.edu.cn/API/Admin/DailyFeedback/FeedbackStu
 url_mytask = r''
 url_mytask = r'http://ce.fudan.edu.cn/API/Students/QuestinlistByStu.ashx?action=querymytask&type=-1&category=1&name=&v=1638193793285&index=1&psize=10&orderby=&col=&ordertype=&order='
 
+uid = r'2021-2022-1-' + studentCode
 ### 以下无需修改
 
 headers = {
@@ -39,8 +41,6 @@ headers = {
 }
 
 headers['Cookie'] = Cookie
-
-uid = r'2021-2022-1-' + studentCode
 
 url_home = r'http://ce.fudan.edu.cn/admin/Home.aspx'
 SubjectId = r'f131dcec-1b7b-11ec-9b3f-00505680e0d1'
