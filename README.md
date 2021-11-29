@@ -13,7 +13,7 @@
 
 #### 第二步
 
-编程main.py
+编辑 main.py
 
 Cookie 评教页面的Cookie 
 
